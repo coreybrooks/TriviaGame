@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Corey's Trivia Game</title>
+
+  <!-- Added link to the jQuery Library -->
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
+  <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://bootswatch.com/cyborg/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+
+  <div class="container">
+
+<h1>My To Do's!</h1>
+
+<div id="results"></div>
+
+  <!--section for holding the question content-->
+  <div class="jumbotron questionsDiv"> 
+  <form>
+      <fieldset>
+      <h2>TO DO ITEMS</h2>
+        <input type="text" name="one" value="true" id='textInput'>
+        <button id="addItem">Add Item</button>
+      </fieldset>
+  </form>
+  <hr>
+
+  </div>
+
+  <script>
+  $('#addItem').on('click', function() {
+    event.preventDefault();
+        $('#results').append($('#textInput').val());
+console.log('#textInput').val();
+  })
+  </script>
+
+</body>
+</html>

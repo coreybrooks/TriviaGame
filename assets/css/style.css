@@ -2,10 +2,22 @@ body{
 position: relative;
 }
 
+.container {
+	width: 950px;
+}
+
+.startHeader {
+	text-decoration: underline;
+}
+
 .startDiv {
 	height: 100%;
 }
 
+.sL {
+	color: red;
+	font-size: 40px;
+}
 
 .questionsDiv {
 	height: 100%;
@@ -18,14 +30,21 @@ position: relative;
 .timerDiv {
 	background: black;
 	opacity: 1
-	width: 150px;
+	width: 130px;
 	padding: 20px;
 	display: block;
 	outline: 3px solid #E3E3E3;
 	position: fixed;
 	top: 20px;
-	right: 300px;
+	right: 20px;
 	color: white;
+	font-size: 26px;
+	margin-left: 5px;
+}
+.timerTop {
+	text-decoration: underline;
+}
+.done, .start {
+	width:100%;
 	font-size: 30px;
-
 }

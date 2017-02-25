@@ -1,0 +1,31 @@
+body{
+position: relative;
+}
+
+.startDiv {
+	height: 100%;
+}
+
+
+.questionsDiv {
+	height: 100%;
+}
+
+.resultsDiv {
+	height: 100%;
+}
+
+.timerDiv {
+	background: black;
+	opacity: 1
+	width: 150px;
+	padding: 20px;
+	display: block;
+	outline: 3px solid #E3E3E3;
+	position: fixed;
+	top: 20px;
+	right: 300px;
+	color: white;
+	font-size: 30px;
+
+}

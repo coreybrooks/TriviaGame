@@ -17,22 +17,116 @@
 
 
   <div class="container">
+
+  <!--start screen stuff-->
+  <div class="jumbotron startDiv" style="display: normal">
+    <h1>PRESS START TO PLAY!!</h1>
+
+    <button class="btn button btn-primary start">START</button>
+  </div>
+
+
+  <!--section for holding the question content-->
+  <div class="jumbotron questionsDiv" style="display: none"> 
+  <form>
+      <fieldset>
+        <legend>Dave Grohl was the drummer for Nirvana before becoming the lead singer for the band Foo Fighters  :</legend>
+        <input type="radio" name="one" value="true" id='1t'>  True
+        <input type="radio" name="one" value='false' id="1f">  False
+      </fieldset>
+  </form>
+    <form>
+      <fieldset>
+        <legend>Grungy Questions  :</legend>
+        <input type="radio" name="one" value="true" id='2t'>  True
+        <input type="radio" name="one" value='false' id="2f">  False
+      </fieldset>
+  </form>
+  <form>
+      <fieldset>
+        <legend>Grungy Questions  :</legend>
+        <input type="radio" name="one" value="true" id='3t'>  True
+        <input type="radio" name="one" value='false' id="3f">  False
+      </fieldset>
+  </form>
+  <form>
+      <fieldset>
+        <legend>Grungy Questions  :</legend>
+        <input type="radio" name="one" value="true" id='4t'>  True
+        <input type="radio" name="one" value='false' id="4f">  False
+      </fieldset>
+  </form>
+  <form>
+      <fieldset>
+        <legend>Grungy Questions  :</legend>
+        <input type="radio" name="one" value="true" id='5t'>  True
+        <input type="radio" name="one" value='false' id="6f">  False
+      </fieldset>
+  </form>
+  <form>
+      <fieldset>
+        <legend>Grungy Questions  :</legend>
+        <input type="radio" name="one" value="true" id='1t'>  True
+        <input type="radio" name="one" value='false' id="1f">  False
+      </fieldset>
+  </form>
+  <form>
+      <fieldset>
+        <legend>Grungy Questions  :</legend>
+        <input type="radio" name="one" value="true" id='1t'>  True
+        <input type="radio" name="one" value='false' id="1f">  False
+      </fieldset>
+  </form>
+  <form>
+      <fieldset>
+        <legend>Grungy Questions  :</legend>
+        <input type="radio" name="one" value="true" id='1t'>  True
+        <input type="radio" name="one" value='false' id="1f">  False
+      </fieldset>
+  </form>
+  <form>
+      <fieldset>
+        <legend>Grungy Questions  :</legend>
+        <input type="radio" name="one" value="true" id='1t'>  True
+        <input type="radio" name="one" value='false' id="1f">  False
+      </fieldset>
+  </form>
+  <form>
+      <fieldset>
+        <legend>Grungy Questions  :</legend>
+        <input type="radio" name="one" value="true" id='1t'>  True
+        <input type="radio" name="one" value='false' id="1f">  False
+      </fieldset>
+  </form>
+  <form>
+      <fieldset>
+        <legend>Grungy Questions  :</legend>
+        <input type="radio" name="one" value="true" id='1t'>  True
+        <input type="radio" name="one" value='false' id="1f">  False
+      </fieldset>
+  </form>
+
+  <br><br>
+    <button class="btn button btn-primary done">DONE</button>
+    <div class="timerDiv">TIME LEFT <span class="timerSpan">10</span></div>
+  </div>
+
     
     <!--display results below-->
-  <div id="resultsDiv" class="jumbotron">
+  <div class="jumbotron resultsDiv" style="display: none">
     <h1 class="text-center">RESULTS</h1>
     <div>
       <h3>Right Answers: <span id="rightQuestions"></span></h3>
       <h3>Wrong Answers: <span id="wrongQuestions"></span></h3>
       <br><br>
-      <h4>Unaswered Questions: <span id="unansweredQuestions"></span></h4>
+      <h4>Unaswered Questions: <span id="unasweredQuestions"></span></h4>
     </div>
   </div>
 
 
   </div>
 
-  <script src='assets/javascript/game.js'></script>
+  <script src='assets/javascript/app.js'></script>
 
 </body>
 </html>

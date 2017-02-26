@@ -1,11 +1,10 @@
 body{
 background-image: url(../images/moshpit.jpg);
 position: relative;
-font-family: 'Allerta Stencil', sans-serif;
 }
 
 .change {
-	font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Coming Soon', cursive, 'Times New Roman';
 	font-size: 45px;
 }
 
@@ -64,5 +63,11 @@ font-family: 'Allerta Stencil', sans-serif;
 .done, .start {
 	width:100%;
 	font-size: 30px;
+    font-family: 'Coming Soon', cursive, 'Times New Roman'
+}
+
+.start {
+	color: red;
+    font-family: 'Coming Soon', cursive, 'Times New Roman'
 }
 

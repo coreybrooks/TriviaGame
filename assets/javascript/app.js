@@ -2,10 +2,22 @@ $(document).ready( function() {
 
 //display global variables
 var rightQuestions = 0, wrongQuestions = 0, unasweredQuestions = 0, time; 
+var rustyCage = new Audio('assets/images/rustyCage.mp3');
+var manInTheBox = new Audio('assets/images/manInTheBox.mp3');
+var smellsLikeTeenSpirit = new Audio('assets/images/smellsLikeTeenSpirit.mp3');
 
+function startMusic(){
+smellsLikeTeenSpirit.play();
+  }
+
+  startMusic();
 
 //function that runs when the start button is clicked
    $('.start').on('click', function() {
+
+   	smellsLikeTeenSpirit.pause();
+   	rustyCage.play();
+
    	$('.startDiv').attr('style', 'display: none');
    	$('.questionsDiv').attr('style', 'display: normal');
    	$('.resultsDiv').attr('style', 'display: none');
@@ -60,6 +72,8 @@ function twoMinutes(){
 
    function displayResults() {
    	console.log('displayResults is working');
+   	rustyCage.pause();
+    manInTheBox.play();
   	$('.startDiv').attr('style', 'display: none');
    	$('.questionsDiv').attr('style', 'display: none');
    	$('.resultsDiv').attr('style', 'display: normal');

@@ -1,5 +1,16 @@
 body{
+background-image: url(../images/moshpit.jpg);
 position: relative;
+font-family: 'Allerta Stencil', sans-serif;
+}
+
+.change {
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 45px;
+}
+
+.change2 {
+	font-weight: bold;
 }
 
 .container {
@@ -11,7 +22,9 @@ position: relative;
 }
 
 .startDiv {
+	background-image: url(../images/plaid.jpg);
 	height: 100%;
+	opacity: 0.95;
 }
 
 .sL {
@@ -20,19 +33,23 @@ position: relative;
 }
 
 .questionsDiv {
+	opacity: 0.9;
 	height: 100%;
 }
 
 .resultsDiv {
+	position: relative;
+	top: 100px;
+	opacity: 0.9;
 	height: 100%;
 }
 
 .timerDiv {
-	background: black;
-	opacity: 1
-	width: 130px;
+	background-image: url(../images/plaid2.jpg);
+	opacity: 1;
+    max-width: 180px;
+  	width:100%;
 	padding: 20px;
-	display: block;
 	outline: 3px solid #E3E3E3;
 	position: fixed;
 	top: 20px;
@@ -48,3 +65,4 @@ position: relative;
 	width:100%;
 	font-size: 30px;
 }
+
